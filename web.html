@@ -3,33 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Waste Management Services</title>
+  <title>EcoScan</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100 font-sans">
   <header class="bg-green-700 text-white text-center p-6">
-    <h1 class="text-4xl font-bold">Smart Waste Management</h1>
-    <p class="text-lg mt-2">Efficient, Eco-Friendly, and Sustainable Waste Solutions</p>
+    <h1 class="text-4xl font-bold">EcoScan</h1>
+    <p class="text-lg mt-2">Pickup Dashboard</p>
   </header>
 
   <main class="p-6">
-    <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="bg-white rounded-2xl shadow-md p-6 text-center">
-        <div class="text-green-600 text-4xl mb-4">♻️</div>
-        <h2 class="text-xl font-semibold mb-2">Recycling Services</h2>
-        <p class="text-gray-600">Comprehensive recycling for paper, plastic, and metals.</p>
-      </div>
-
-      <div class="bg-white rounded-2xl shadow-md p-6 text-center">
-        <div class="text-red-600 text-4xl mb-4">🗑️</div>
-        <h2 class="text-xl font-semibold mb-2">Garbage Collection</h2>
-        <p class="text-gray-600">Reliable and timely waste pickup solutions for homes and businesses.</p>
-      </div>
-
-      <div class="bg-white rounded-2xl shadow-md p-6 text-center">
-        <div class="text-emerald-600 text-4xl mb-4">🌱</div>
-        <h2 class="text-xl font-semibold mb-2">Eco Initiatives</h2>
-        <p class="text-gray-600">Programs to reduce carbon footprint and promote sustainability.</p>
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold mb-4">Incoming Requests</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Sample Card -->
+        <div class="bg-white rounded-2xl shadow-md p-4">
+          <img src="https://via.placeholder.com/400x200" alt="Waste Image" class="rounded mb-3">
+          <p class="text-sm text-gray-500">Location: <span class="font-medium">123 Main Street</span></p>
+          <p class="text-sm text-gray-500">Category: <span class="font-medium">E-Waste</span></p>
+          <p class="text-sm text-gray-500 mb-3">Submitted: 2025-05-01</p>
+          <label class="block mb-2 text-sm font-medium text-gray-700">Set Pickup Date & Time</label>
+          <input type="datetime-local" class="border rounded p-2 w-full mb-3">
+          <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Schedule Pickup</button>
+        </div>
+        <!-- Repeat this card dynamically using backend -->
       </div>
     </section>
   </main>
