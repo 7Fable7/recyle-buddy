@@ -1,0 +1,152 @@
+{
+  "aerosol_cans": {
+    "recyclable": true,
+    "description": "Aerosol cans made of steel or aluminum are recyclable once they are completely empty. Do not puncture or crush. Check with local recycling for specific rules on pressurized containers.",
+    "how_to_recycle": "Ensure the can is completely empty. Do not puncture or crush. Place in curbside recycling if accepted."
+  },
+  "aluminum_food_cans": {
+    "recyclable": true,
+    "description": "Aluminum food cans are widely accepted in curbside recycling programs. Rinse them to remove food residue before placing in the recycling bin.",
+    "how_to_recycle": "Rinse out food residue. Place in curbside recycling."
+  },
+  "aluminum_soda_cans": {
+    "recyclable": true,
+    "description": "Rinse soda cans to remove sugary residues. Aluminum is highly recyclable and can be endlessly reused.",
+    "how_to_recycle": "Rinse to remove any sugary residue. Crush gently to save space and place in curbside recycling."
+  },
+  "cardboard_boxes": {
+    "recyclable": true,
+    "description": "Flatten cardboard boxes to save space. Ensure they are clean and dry without food contamination.",
+    "how_to_recycle": "Flatten the boxes. Remove any tape or labels if possible. Place in dry recycling bin."
+  },
+  "cardboard_packaging": {
+    "recyclable": true,
+    "description": "Remove any plastic or foam inserts before recycling cardboard packaging. Keep it dry and clean.",
+    "how_to_recycle": "Remove any non-paper inserts (like foam or plastic). Flatten and place in recycling."
+  },
+  "clothing": {
+    "recyclable": false,
+    "description": "Not accepted in curbside recycling. Donate usable clothing or bring to textile recycling centers to avoid landfill.",
+    "how_to_recycle": "Donate usable items. For unusable clothing, take to textile recycling centers."
+  },
+  "coffee_grounds": {
+    "recyclable": false,
+    "description": "Coffee grounds are not recyclable but are compostable. They enrich compost with nitrogen and organic matter.",
+    "how_to_recycle": "Collect used grounds and add to compost bin."
+  },
+  "disposable_plastic_cutlery": {
+    "recyclable": false,
+    "description": "These items are made from low-grade plastic and are typically too small to be sorted effectively. Place in trash.",
+    "how_to_recycle": "Not recyclable. Dispose of in trash."
+  },
+  "eggshells": {
+    "recyclable": false,
+    "description": "Eggshells should be composted, not recycled. They add calcium to compost and break down easily.",
+    "how_to_recycle": "Add to compost bin to enrich with calcium."
+  },
+  "food_waste": {
+    "recyclable": false,
+    "description": "Food waste is not recyclable but should be composted where facilities exist. Keep food out of recycling bins.",
+    "how_to_recycle": "Collect in a compost bin or use municipal composting services if available."
+  },
+  "glass_beverage_bottles": {
+    "recyclable": true,
+    "description": "Remove caps and rinse bottles before recycling. Avoid mixing broken glass which can damage sorting equipment.",
+    "how_to_recycle": "Remove caps. Rinse and place in glass recycling bin."
+  },
+  "glass_cosmetic_containers": {
+    "recyclable": true,
+    "description": "Clean thoroughly to remove residues. Containers made of glass (not plastic parts) can be recycled.",
+    "how_to_recycle": "Remove any non-glass parts. Rinse thoroughly and recycle the glass part."
+  },
+  "glass_food_jars": {
+    "recyclable": true,
+    "description": "Rinse food jars and remove lids. Labels can stay on, but avoid jars with mixed materials like metal or plastic coatings.",
+    "how_to_recycle": "Remove lids. Rinse thoroughly. Labels can stay on. Place in glass recycling."
+  },
+  "magazines": {
+    "recyclable": true,
+    "description": "Glossy paper from magazines is accepted in most paper recycling programs. Stack or bundle if required by local rules.",
+    "how_to_recycle": "Bundle together if required. Place in paper recycling."
+  },
+  "newspaper": {
+    "recyclable": true,
+    "description": "Newspapers are ideal for recycling. Keep dry and unsoiled by food or grease for proper processing.",
+    "how_to_recycle": "Keep clean and dry. Place in paper recycling bin."
+  },
+  "office_paper": {
+    "recyclable": true,
+    "description": "Includes printer paper, envelopes (without plastic windows), and notepaper. Keep it clean and dry.",
+    "how_to_recycle": "Stack or loosely place in paper recycling. Avoid plastic windowed envelopes."
+  },
+  "paper_cups": {
+    "recyclable": false,
+    "description": "Most paper cups are lined with plastic, making them hard to recycle. Compost if labeled compostable.",
+    "how_to_recycle": "Dispose of in compost bin if compostable. Otherwise, place in trash."
+  },
+  "plastic_cup_lids": {
+    "recyclable": false,
+    "description": "Small and often made of mixed materials, these are not accepted in most recycling systems. Dispose in trash.",
+    "how_to_recycle": "Dispose in trash. Not recyclable."
+  },
+  "plastic_detergent_bottles": {
+    "recyclable": true,
+    "description": "Rinse and remove pump tops if applicable. Bottles are usually made of HDPE, a highly recyclable plastic.",
+    "how_to_recycle": "Rinse. Remove pump tops. Place bottle in plastic recycling bin."
+  },
+  "plastic_food_containers": {
+    "recyclable": true,
+    "description": "Clean containers of any food residue. Containers with recycling numbers #1 or #2 are most widely accepted.",
+    "how_to_recycle": "Clean out all food residue. Place in plastic recycling bin if marked #1 or #2."
+  },
+  "plastic_shopping_bags": {
+    "recyclable": false,
+    "description": "Do not put in curbside recycling. Return to designated grocery store bins for proper recycling.",
+    "how_to_recycle": "Collect and return to designated store drop-off locations."
+  },
+  "plastic_soda_bottles": {
+    "recyclable": true,
+    "description": "Made from PET plastic, these are widely accepted. Remove caps and rinse before recycling.",
+    "how_to_recycle": "Remove caps. Rinse and place in curbside recycling."
+  },
+  "plastic_straws": {
+    "recyclable": false,
+    "description": "Too small and lightweight for recycling machines. Place in trash to avoid contaminating recycling streams.",
+    "how_to_recycle": "Place in trash. Too small for recycling."
+  },
+  "plastic_trash_bags": {
+    "recyclable": false,
+    "description": "Not recyclable. If they contain recyclables, empty the contents into the bin and dispose of the bag in trash.",
+    "how_to_recycle": "Empty contents into bin. Dispose bag in trash."
+  },
+  "plastic_water_bottles": {
+    "recyclable": true,
+    "description": "Rinse and flatten if possible. Remove caps, which are often made from a different type of plastic.",
+    "how_to_recycle": "Remove caps. Rinse, flatten if possible, and place in recycling."
+  },
+  "shoes": {
+    "recyclable": false,
+    "description": "Shoes are not curbside recyclable. Donate usable pairs or take to specialized shoe recycling programs.",
+    "how_to_recycle": "Donate if wearable. Otherwise, take to specialty shoe recycling programs."
+  },
+  "steel_food_cans": {
+    "recyclable": true,
+    "description": "Rinse to remove food residue. Labels can remain. Steel is fully recyclable and valuable.",
+    "how_to_recycle": "Rinse. Labels may stay on. Place in metal recycling."
+  },
+  "styrofoam_cups": {
+    "recyclable": false,
+    "description": "Styrofoam is not accepted in most recycling programs due to contamination and processing issues. Place in trash.",
+    "how_to_recycle": "Dispose in trash. Not recyclable."
+  },
+  "styrofoam_food_containers": {
+    "recyclable": false,
+    "description": "Not recyclable due to food contamination and material challenges. Best disposed in trash.",
+    "how_to_recycle": "Dispose in trash. Not recyclable due to contamination."
+  },
+  "tea_bags": {
+    "recyclable": false,
+    "description": "Compost if made of natural fibers (paper or cotton). Plastic mesh bags should go in the trash.",
+    "how_to_recycle": "Compost if made of paper or cotton. Trash for synthetic bags."
+  }
+}
