@@ -2,14 +2,17 @@
 import flask
 import numpy as np
 from flask import Flask, render_template, request
-from flask import request
+from flask import request, jsonify
+import requests
 from ultralytics import YOLO
 from PIL import Image
+import json
 
 
 app=Flask(__name__)
 model = YOLO("yolov8n-oiv7.pt")
 
+OPENROUTER_API_KEY = "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"
 
 @app.route('/')
 def index():
@@ -29,11 +32,32 @@ def result():
         for result in results:
             for box in result.boxes:
                 result_arr.append(model.names[box.cls[0].item()])
-        # if result_arr is None:
-        #      return "No object detected"
-        return result_arr
-    return "this shouldn't have happened"
-
-
+        ans = []
+        for item in result_arr:
+            response = requests.post(
+					url="https://openrouter.ai/api/v1/chat/completions",
+					headers = {
+						"Authorization": f"Bearer {OPENROUTER_API_KEY}",
+						"Content-Type": "application/json"
+					},
+					data=json.dumps({
+						"model": "deepseek/deepseek-r1:free",
+						"messages": [
+						{
+							"role": "system",
+							"content": "You are an expert in recycling guidelines."
+						},
+						{
+							"role": "user",
+							"content": f"Provide material type, recyclable yes/no, instructions, environment impact for plastic in JSON format."
+						}
+						],
+					})
+					)
+            ans.append(response.json())
+        return jsonify({"result": ans})
+		
+        
+        
 if __name__ == "__main__":
-	app.run(debug=True)
+	app.run(host='0.0.0.0')
